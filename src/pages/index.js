@@ -18,7 +18,7 @@ const IndexPage = () => (
 	<img src="/bass.png" />
 	<img src="/static/bass.png" />
 	
-    <Link to="/static/build/twine.js">Twinen peruskäyttö</Link>
+    <Link to="/build/twine.js">Twinen peruskäyttö</Link>
     <Link to="/tut2/">Twinen peruskäyttö</Link>
     <Link to="/tut3/">Twinen peruskäyttö</Link>
 	
