@@ -8,9 +8,9 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Twinekoodi.fi"
       meta={[
-        { name: 'description', content: 'Sample' },
+        { name: 'description', content: 'Tarinankerrontaa ja koodausta Twinellä' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
