@@ -5,8 +5,17 @@ const IndexPage = () => (
   <div>
     <h1>Tutoriaaleja Twinen käyttöön</h1>
     <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    
+	<p>
+	Jos et ole koskaan käyttänyt Twine, kokeile
+    <Link to="/tut0/">Twinen peruskäyttö</Link>
+	</p>
+	
+	<hr />
+	
+    <Link to="/tut1/">Twinen peruskäyttö</Link>
+    <Link to="/tut2/">Twinen peruskäyttö</Link>
+    <Link to="/tut3/">Twinen peruskäyttö</Link>
   </div>
 )
 
