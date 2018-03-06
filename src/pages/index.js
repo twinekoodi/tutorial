@@ -5,7 +5,13 @@ const IndexPage = () => (
   <div>
     <h1>Twine-tarinankerrontaohjelman oppaat</h1>
 
-    <p>Twine on .</p>
+    <p>Twine on epälineaaristen interaktiivisten tarinoiden kirjoittamiseen tarkoitettu työkalu. Sitä voi käyttää suoraan nettiselaimella osoitteessa</p>
+
+	<p><a href = "http://twinery.org/2">Twinery.org/2</a></p>
+	
+	<p>tai tällä sivulla ohjelman kehitysversiota</p>
+
+	<p><a href = "/twine/index.html">twinekoodi.fi/twine</a></p>
 
 	<hr />
     
@@ -13,15 +19,7 @@ const IndexPage = () => (
 	Jos et ole koskaan käyttänyt Twine, tutustu <Link to="/tut0/">Twinen peruskäyttöön</Link>
 	</p>
 	
-	<hr />
-	
-	<img src="/bass.png" />
-	<img src="/static/bass.png" />
-	
-    <Link to="/build/twine.js">Twinen peruskäyttö</Link>
-    <Link to="/tut2/">Twinen peruskäyttö</Link>
-    <Link to="/tut3/">Twinen peruskäyttö</Link>
-	
+	<hr />	
 	
   </div>
 )
