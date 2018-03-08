@@ -83,7 +83,8 @@ sup {
   top: -.5em;
 }
 img {
-  border-style: none;
+  border:2px solid #BBBBBB;
+#  border-style: none;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -197,6 +198,7 @@ html {
   box-sizing: inherit;
 }
 body {
+	background-color: #EEEEEE;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
@@ -218,6 +220,12 @@ img {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+img .kuvake {
+  margin-left: 200;
+    padding-top: 20;
+	vertical-align: text-top;
+}
+
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -511,7 +519,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+#  margin-bottom: calc(1.45rem / 2);
 }
 ol li {
   padding-left: 0;
