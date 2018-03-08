@@ -10,7 +10,7 @@ const IndexPage = () => (
 	<p>Jos et ole koskaan käyttänyt Twineä, lue ensimmäisenä 
 	<ul>
 	<li><Link to="/tut0/">Twinen peruskäyttö, osa 1</Link></li>
-	<li><Link to="/tut1/">Twinen peruskäyttö, osa 2</Link></li>
+	<li>Twinen peruskäyttö, osa 2 (tulossa)</li>
 	</ul>
 	</p>
 
@@ -19,9 +19,9 @@ const IndexPage = () => (
 	<h3>Perusjuttuja ilman ohjelmointia</h3>
 	<p>
 	<ul>
-	<li><Link to="/">Kysely</Link> (tulossa)</li>
-	<li><Link to="/">Tekstiseikkailu</Link> (tulossa)</li>
-	<li><Link to="/">Vuorovaikutteinen runo</Link> (tulossa)</li>	
+	<li>Kysely (tulossa)</li>
+	<li>Tekstiseikkailu (tulossa)</li>
+	<li>Vuorovaikutteinen runo (tulossa)</li>	
 	</ul>
 	</p>
 
@@ -30,9 +30,9 @@ const IndexPage = () => (
 	<h3>Muuttujien käyttöä</h3>
 	<p>
 	<ul>
-	<li><Link to="/tut0/">Kysely pistelaskulla</Link> (tulossa)</li>
-	<li><Link to="/tut0/">Monimutkaisempi tekstiseikkailu</Link> (tulossa)</li>
-	<li><Link to="/tut1/">Kolme varista -laulu</Link> (sata varista!) (tulossa)</li>	
+	<li>Kysely pistelaskulla (tulossa)</li>
+	<li>Monimutkaisempi tekstiseikkailu (tulossa)</li>
+	<li><Link to="/tutm2/">Lihapullansyöntikilpailu</Link></li>	
 	</ul>
 	</p>
 
@@ -43,14 +43,14 @@ const IndexPage = () => (
 	<h3>Elektroniikkaa</h3>
 	
 	<p>
-	Twinellä laaditut tarinat voivat ohjata Arduino-elektroniikkaa. Tämä ominaisuus on vasta kehitteillä. Yllä on kuva Arduino Uno -kortista, joka ohjaa LCD-näyttöä (alhaalla vasemmalla) ja kolme lediä (alhalla oikella vihreä, keltainen ja punainen ledi). Käyttäjä voi ohjata elektroniikkaa kolmella painikkeella (alhaalla keskellä punainen, valkoinen ja sininen painike).
+	Twinellä laadituilla tarinoilla voi ohjata Arduino-elektroniikkaa. Tämä ominaisuus on vasta kehitteillä. Yllä on kuva Arduino Uno -kortista, joka ohjaa LCD-näyttöä (alhaalla vasemmalla) ja kolme lediä (alhaalla oikella vihreä, keltainen ja punainen ledi). Käyttäjä voi ohjata elektroniikkaa kolmella painikkeella (keskellä punainen, valkoinen ja sininen painike).
 	</p>
 	
 	<p>
 	<ul>
-	<li><Link to="/">Portti salasanalla</Link> (tulossa)</li>
+	<li>Portti salasanalla (tulossa)</li>
 	<li><Link to="/tute1/">Liikennevalot</Link></li>
-	<li><Link to="/">Neuvontarobotti</Link> (tulossa)</li>	
+	<li>Neuvontarobotti (tulossa)</li>	
 	</ul>
 	</p>
 	
