@@ -1,0 +1,69 @@
+
+<!-- saved from url=(0130)http://webcache.googleusercontent.com/search?q=cache:http://www.robo.fi/twine/oppitunti_4.html&gws_rd=cr&ei=2FIxWeT1B8nB6ASU3J7YDA -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--<base href="http://www.robo.fi/twine/oppitunti_4.html">--><base href="."><style type="text/css">body { margin-left:0;margin-right:0;margin-top:0; }#google-cache-hdr {background:#f5f5f5 !important;font:13px arial,sans-serif !important;text-align:left !important;color:#202020 !important;border:0 !important;margin:0 !important;border-bottom:1px solid #cecece !important;line-height:16px !important ;padding:16px 28px 24px 28px !important;}#google-cache-hdr * {display:inline !important;font:inherit !important;text-align:inherit !important;color:inherit !important;line-height:inherit !important;background:none !important;border:0 !important;margin:0 !important;padding:0 !important;letter-spacing:0 !important;}#google-cache-hdr a {text-decoration:none !important;color:#1a0dab !important;}#google-cache-hdr a:hover { text-decoration:underline !important; }#google-cache-hdr a:visited { color:#609 !important; }#google-cache-hdr div { display:block !important;margin-top:4px !important; }#google-cache-hdr b {font-weight:bold !important;display:inline-block !important;direction:ltr !important;}</style></head><body><div id="google-cache-hdr" dir="ltr"><div>This is Google's cache of <a href="http://www.robo.fi/twine/oppitunti_4.html" dir="ltr">http://www.robo.fi/twine/oppitunti_4.html</a>. It is a snapshot of the page as it appeared on May 8, 2017 07:05:53 GMT. </div><div>The <a href="http://www.robo.fi/twine/oppitunti_4.html" dir="ltr">current page</a> could have changed in the meantime. <a href="http://support.google.com/websearch/bin/answer.py?hl=en&amp;p=cached&amp;answer=1687222">Learn more</a></div><div></div><div><span style="display:inline-block !important;margin-top:8px !important;margin-right:104px !important;white-space:nowrap !important;"><span style="margin-right:28px !important;"><span style="font-weight:bold !important;">Full version</span></span><span style="margin-right:28px !important;"><a href="http://webcache.googleusercontent.com/search?q=cache:http://www.robo.fi/twine/oppitunti_4.html&amp;num=1&amp;strip=1&amp;vwsrc=0">Text-only version</a></span><span style="margin-right:28px !important;"><a href="http://webcache.googleusercontent.com/search?q=cache:http://www.robo.fi/twine/oppitunti_4.html&amp;num=1&amp;strip=0&amp;vwsrc=1">View source</a></span></span><span style="display:inline-block !important;margin-top:8px !important;color:#717171 !important;">Tip: To quickly find your search term on this page, press <b>Ctrl+F</b> or <b>⌘-F</b> (Mac) and use the find bar.</span></div></div><div style="position:relative;">
+
+
+    <link rel="stylesheet" type="text/css" href="./1_files/css">
+
+  
+<div style="width:640px; font-family: &#39;Arvo&#39;, serif;">
+<h1>Twine-opas, oppitunti 4</h1>
+
+<p>Opetellaan tällä kertaa käyttämään numeromuuttujia. Tehdään vaihteen vuoksi uusi tarina, nimeltään vaikkapa "Lihapullat". Tarkoituksena on syödä lautaselta kaikki lihapullat.</p>
+
+<p>Kirjoitetaan tarinaan seuraava kappale:</p>
+
+<img border="2" width="500px" src="./1_files/63.png">
+
+<p>Tässä siis ensin tehdään muuttuja $määrä, jolle annetaan arvo 10. Seuraavaksi kerrotaan että lautasella on $määrä-muuttujan verran lihapullia. Pelaajalla on vaihtoehtona syödä lihapulla tai luovuttaa.</p>
+
+<p>Kokeillaan tarinaa, joka näyttää nyt tältä:</p>
+
+<img width="800px" src="./1_files/64.png">
+
+<p>Jos pelaaja luovuttaa, kerrotaan hänelle että hän hävisi pelin ja annetaan mahdollisuus yrittää uudelleen:</p>
+
+<img border="2" width="500px" src="./1_files/65.png">
+
+<p>Jos pelaaja syö lihapullan, voisimme tehdä joka lihapullan syönnin jälkeen uuden kappaleen. Kappaleita tulisi kuitenkin aika monta. Käytetään muuttujaa apuna! Tehdään seuraavanlainen kappale, jossa uudeksi määräksi annetaan määrä miinus yksi:</p>
+
+<img border="2" width="500px" src="./1_files/66.png">
+
+<p>Tarinanäkymä näyttää nyt tältä. Jos kappaleesta pääsee takaisin itseensä, oikeasta alanurkasta tulee nuoli laatikon läpi sen vasempaan yläkulmaan.</p>
+
+<img width="800px" src="./1_files/67.png">
+
+<p>Testataan tarinaa ja lihapullat tosiaan vähenevät lautaselta, kun niitä syö:</p>
+
+<img width="800px" src="./1_files/68.png">
+
+<p>Jos pelaaja vain jatkaa syömistä, lihapullien määrä menee nollaan ja sen jälkeen negatiiviseksi. Oikeasti haluaisimme, että kun lautanen on tyhjä, pelaaja saa onnittelut.</p>
+
+<p>Tehdään tähän samaan kappaleeseen edellisellä oppitunnilla opittu if- eli jos-lause. Viime kerralla laitoimme if-lauseen sisään vain yhden komennon, mutta siihen on mahdollista laittaa enemmänkin sisältöä. Muokataan kappale muotoon:</p>
+
+<img border="2" width="500px" src="./1_files/69.png">
+
+<p>Kappaleen toiminta on nyt seuraava: Ensin $määrä-muuttujan arvoa vähennetään yhdellä (koska pelaaja tuli tähän kappaleeseen yhden lihapullen syöden). Sitten if-lauseella testataanko joko määrä on nollassa. Jos määrä on nollassa, näytetään kaikki hakasulkujen sisällä oleva sisältö eli seuraavassa kuvassa maalattu teksti:</p><p>
+
+<img border="2" width="500px" src="./1_files/70.png">
+
+</p><p>Pelaaja saa siis onnittelun ja mahdollisuuden syödä vielä toisen lautasellisen.</p>
+
+<p>Olisimme voineet tehdä vielä toisen if-lauseen, jossa testattaisiin onko lihapullia vielä enemmän kuin nolla. Tähän olisimme voineet käyttää &gt;-merkkiä eli suurempi kuin -merkkiä seuraavaan tapaan:</p>
+
+<img border="2" width="500px" src="./1_files/71.png">
+
+<p>Käytimme kuitenkin tällä kertaa else-komentoa (suomeksi "muuten" tai "muussa tapauksessa"). Ensimmäinen hakasulkujen sisältö suoritetaan, jos määrä on nolla. Muussa tapauksessa suoritetaan toisten hakasulkujen sisältö eli alle väritetty alue:</p>
+
+<img border="2" width="500px" src="./1_files/72.png">
+
+<p>Katsotaan seuraavaksi läpi Twinen komentoja järjestelmällisemmin.</p>
+
+
+
+
+
+
+
+</div></div></body></html>

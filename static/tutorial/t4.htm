@@ -1,0 +1,68 @@
+
+<!-- saved from url=(0130)http://webcache.googleusercontent.com/search?q=cache:http://www.robo.fi/twine/oppitunti_4.html&gws_rd=cr&ei=2FIxWeT1B8nB6ASU3J7YDA -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <link rel="stylesheet" type="text/css" href="./1_files/css">
+
+  
+<div style="width:640px; font-family: &#39;Arvo&#39;, serif;">
+<h1>Twine-opas, oppitunti 4</h1>
+
+<p>Opetellaan tällä kertaa käyttämään numeromuuttujia. Tehdään vaihteen vuoksi uusi tarina, nimeltään vaikkapa "Lihapullat". Tarkoituksena on syödä lautaselta kaikki lihapullat.</p>
+
+<p>Kirjoitetaan tarinaan seuraava kappale:</p>
+
+<img border="2" width="500px" src="./1_files/63.png">
+
+<p>Tässä siis ensin tehdään muuttuja $määrä, jolle annetaan arvo 10. Seuraavaksi kerrotaan että lautasella on $määrä-muuttujan verran lihapullia. Pelaajalla on vaihtoehtona syödä lihapulla tai luovuttaa.</p>
+
+<p>Kokeillaan tarinaa, joka näyttää nyt tältä:</p>
+
+<img width="800px" src="./1_files/64.png">
+
+<p>Jos pelaaja luovuttaa, kerrotaan hänelle että hän hävisi pelin ja annetaan mahdollisuus yrittää uudelleen:</p>
+
+<img border="2" width="500px" src="./1_files/65.png">
+
+<p>Jos pelaaja syö lihapullan, voisimme tehdä joka lihapullan syönnin jälkeen uuden kappaleen. Kappaleita tulisi kuitenkin aika monta. Käytetään muuttujaa apuna! Tehdään seuraavanlainen kappale, jossa uudeksi määräksi annetaan määrä miinus yksi:</p>
+
+<img border="2" width="500px" src="./1_files/66.png">
+
+<p>Tarinanäkymä näyttää nyt tältä. Jos kappaleesta pääsee takaisin itseensä, oikeasta alanurkasta tulee nuoli laatikon läpi sen vasempaan yläkulmaan.</p>
+
+<img width="800px" src="./1_files/67.png">
+
+<p>Testataan tarinaa ja lihapullat tosiaan vähenevät lautaselta, kun niitä syö:</p>
+
+<img width="800px" src="./1_files/68.png">
+
+<p>Jos pelaaja vain jatkaa syömistä, lihapullien määrä menee nollaan ja sen jälkeen negatiiviseksi. Oikeasti haluaisimme, että kun lautanen on tyhjä, pelaaja saa onnittelut.</p>
+
+<p>Tehdään tähän samaan kappaleeseen edellisellä oppitunnilla opittu if- eli jos-lause. Viime kerralla laitoimme if-lauseen sisään vain yhden komennon, mutta siihen on mahdollista laittaa enemmänkin sisältöä. Muokataan kappale muotoon:</p>
+
+<img border="2" width="500px" src="./1_files/69.png">
+
+<p>Kappaleen toiminta on nyt seuraava: Ensin $määrä-muuttujan arvoa vähennetään yhdellä (koska pelaaja tuli tähän kappaleeseen yhden lihapullen syöden). Sitten if-lauseella testataanko joko määrä on nollassa. Jos määrä on nollassa, näytetään kaikki hakasulkujen sisällä oleva sisältö eli seuraavassa kuvassa maalattu teksti:</p><p>
+
+<img border="2" width="500px" src="./1_files/70.png">
+
+</p><p>Pelaaja saa siis onnittelun ja mahdollisuuden syödä vielä toisen lautasellisen.</p>
+
+<p>Olisimme voineet tehdä vielä toisen if-lauseen, jossa testattaisiin onko lihapullia vielä enemmän kuin nolla. Tähän olisimme voineet käyttää &gt;-merkkiä eli suurempi kuin -merkkiä seuraavaan tapaan:</p>
+
+<img border="2" width="500px" src="./1_files/71.png">
+
+<p>Käytimme kuitenkin tällä kertaa else-komentoa (suomeksi "muuten" tai "muussa tapauksessa"). Ensimmäinen hakasulkujen sisältö suoritetaan, jos määrä on nolla. Muussa tapauksessa suoritetaan toisten hakasulkujen sisältö eli alle väritetty alue:</p>
+
+<img border="2" width="500px" src="./1_files/72.png">
+
+<p>Katsotaan seuraavaksi läpi Twinen komentoja järjestelmällisemmin.</p>
+
+
+
+
+
+
+
+</div></div></body></html>

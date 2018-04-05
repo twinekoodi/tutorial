@@ -1,0 +1,101 @@
+
+<!-- saved from url=(0130)http://webcache.googleusercontent.com/search?q=cache:http://www.robo.fi/twine/oppitunti_3.html&gws_rd=cr&ei=1VIxWbTNIsPN6QSg9KeQCA -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="./3_files/css">
+
+  
+<div style="width:640px; font-family: &#39;Arvo&#39;, serif;">
+<h1>Twine-opas, oppitunti 3</h1>
+
+<p>Jatketaan seikkailua ja opetellaan taas pari uutta asiaa. Olen laajentanut seikkailun seuraavan kuvan mukaiseksi ja käyn läpi mitä muutoksia olen tehnyt. Nämä lisäykset osaat tehdä itsekin ensimmäisen oppitunnin mukaisesti.</p>
+
+<img width="800px" src="./3_files/47.png">
+
+<p>Tehdään alkuun valinta, jossa pelaaja saa valita ottaako kouluun mukaan pyyhkeen vai ei. Ensimmäisen kappaleen teksti on nyt:</p>
+
+<img border="2" width="500px" src="./3_files/48.png">
+
+<p>Pelaajalle annetaan siis linkkiteksti "Lähde kävelemään kouluun", mutta pelaaja ohjataan kappaleeseen, jonka nimi on "Pyyhe". Pyyhe-kappaleen tekstin on:</p>
+
+<img border="2" width="500px" src="./3_files/49.png">
+
+<p>Pelaaja saa siis hakea halutessaan pyyhkeen. Joka tapauksessa pelaaja jatkaa entiseen "Jatka kävelyä" -kappaleeseen, mutta jos pelaaja haki pyyhkeen, hänelle kerrotaan vielä että pyyhe on nyt haettu eli kappale "Käyn hakemassa pyyhkeen nopeasti!":</p>
+
+<img border="2" width="500px" src="./3_files/50.png">
+
+<p>"Jatka kävelyä" -kappale on ennallaan eli annetaan pelaajalle mahdollisuus juosta karkuun ja aloittaa alusta.</p>
+
+<img border="2" width="500px" src="./3_files/51.png">
+
+<p>Annetaan pelaajalle vielä mahdollisuus kieltäytyä matkasta:</p>
+
+<img border="2" width="500px" src="./3_files/52.png">
+
+<p>Jos pelaaja ei halua kyytiin, ufo lentää pois (kappale "Ei ufoon") ja pelaaja menee kouluun. Peli loppuu tähän, mutta sen voi taas aloittaa alusta.</p>
+
+<img border="2" width="500px" src="./3_files/53.png">
+
+<p>Jos pelaaja haluaa kyytiin, tulee matkaan vielä yksi ongelma. On tunnettua, että pyyhe on avaruudessa tärkeä esine (<a href="https://fi.wikipedia.org/wiki/Luettelo_Linnunrata-kirjasarjan_k%C3%A4sitteist%C3%A4#Pyyhe">kts. Wikipedia</a>). Avaruusolio ottaa pelaajan kyytiin vain, jos tämä oli ottanut pyyhkeen mukaan. Voimme antaa pelaajan itse valita onko hänellä pyyhe mukana, esimerkiksi näin:</p>
+
+<img border="2" width="500px" src="./3_files/54.png">
+
+<p>Nyt meidän pitää kuitenkin luottaa siihen, että pelaaja on rehellinen. Hänen pitää itse valita oliko pyyhe mukana vai ei.</p>
+
+<p>Voisiko tarinan tehdä niin, että tietokone tietäisi automaattisesti, minkä valinnan pelaaja teki tarinan alussa? Kyllä voi! Siihen tarvitaan avuksi muuttuja.</p>
+
+<p>Muuttuja on olio, johon voidaan tallentaa yksi tieto. Tieto voi olla esimerkiksi numero tai teksti. Twinessä muuttuja merkitään $-merkillä, jonka jälkeen tulee nimi, joka kuvaa muuttujaan tallennettavaa tietoa. Esimerkiksi $nimi voisi olla muuttuja pelaajan nimelle ja $rahat voisi sisältää tiedon siitä, kuinka paljon rahaa pelaajalla on käytettävissä.</p>
+
+<p>Me haluamme muuttujan, joka kertoo onko pelaajalla mukana pyyhe vai ei. Valitaan muuttujalla vaikka nimi $pyyhe.</p>
+
+<p>Pelin alussa pelaajalla ei ole pyyhettä, joten kerrotaan tämä tietokoneelle. Lisätään ensimmäiseen kappaleeseen yksi uusi rivi seuraavaan tapaan:</p>
+
+<img border="2" width="500px" src="./3_files/55.png">
+
+<p>Suluissa oleva teksti on tarkoitettu vain tietokoneelle, ei pelaajalle. Se alkaa komennolla "set:" eli suomeksi aseta ja tarkoitus on asettaa muuttujalle arvo. Seuraavan kerrotaan mille muuttujalle annetaan arvo ja viimeiseksi muuttajalle annettava arvo. Rivi voidaan siis lukea: Aseta $pyyhe-muuttujalle arvoksi "ei".</p>
+
+<p>Sillä ei ole väliä mihin kohtaan kappaletta uusi rivi kirjoitetaan. Kun pelaaja saapuu tarinassa tähän kappaleeseen, kaikki siinä olevat tietokoneelle suunnatut komennot suoritetaan. Jos kappaleessa on monta komentoa, ne suoritetaan ylhäältä alaspäin.</p>
+
+<p>Jos pelaaja käy hakemassa pyyhkeen, meidän pitää muuttaa $pyyhe-muuttujan arvoksi "on". Lisätään kappaleeseen "Käyn hakemassa pyyhkeen nopeasti!" vastaava rivi:</p>
+
+<img border="2" width="500px" src="./3_files/56.png">
+
+<p>Tähän kappaleeseen pelaaja tulee vain, jos hän haki pyyhkeen. Jos pelaaja ei hakenut pyyhettä, hän menee tarinassa eteenpäin käymättä tässä kappaleessa. Niinpä $pyyhe sisältää tekstin "on" vain jos pelaaja haki pyyhkeen. Muussa tapauksessa $pyyhe sisältää tekstin "ei".</p>
+
+<p>Muuttujan arvo voidaan tuoda pelaajalle näkyviin komennolla print. Lisätään seuraava rivi kappaleeseen, jossa pelaajalta kysytään pyyhettä:</p>
+
+<img border="2" width="500px" src="./3_files/57.png">
+
+<p>Komento kertoo että tulostetaan ruudulle muuttujan $pyyhe arvo. Kokeillaan nyt tarinaa, niin että että pyyhe haetaan tai ei haeta. Tuloksen pitäisi näyttää tältä:</p>
+
+<img width="800px" src="./3_files/58.png">
+
+<p>Vieläkin pelaaja pystyy itse valitsemaan vaihtoehdon ja voi huijata. Haluaisimme tarinan toimivan siten, että jos pelaajalla on pyyhe, hän voi vastata "Kyllä, olipa hyvä tuuri. Minulla on pyyhe repussa!". Jos taas pelaajalla ei ole pyyhettä, hän joutuu vastaamaan "Ei, minulla ei ole pyyhettä."</p>
+
+<p>Tällaisen toiminnan voi toteuttaa if-komennolla (englanninkielen sana "if" tarkoittaa suomeksi "jos"). Tehdään seuraavat muutokset kappaleeseen:</p>
+
+<img border="2" width="500px" src="./3_files/59.png">
+
+<p>Tässä tietokoneelle kerrotaan vapaasti suomennettuna, että jos $pyyhe-muuttujassa on arvo "ei", näytetään valinta jolla ei pääse ufon kyytiin. Seuraava komento sanoo, että jos $pyyhe-muuttujassa on arvo "on", näytetään teksti jolla pelaaja pääsee ufon kyytiin.</p>
+
+<p>Kokeillaan vielä että ohjelma toimii. Nyt tarinan tässä kappaleessa pitäisi näkyä vain yksi valinta, riippuen pelaajan valinnasta tarinan alussa.</p>
+
+<img width="800px" src="./3_files/60.png">
+
+<p>Huomaa että jos testaat tarinaa niin, että se alkaa tästä kappaleesta, esiin ei tule mitään valintaa, kuten alla olevassa kuvassa näkyy. Keksitkö mistä tämä johtuu? (vastaus kuvan alla)</p>
+
+<img width="800px" src="./3_files/61.png">
+
+<p>Valinnan puuttuminen johtuu siitä, ettei $pyyhe muuttujan arvo ole kumpikaan, "ei" eikä "on". Siksi kumpikaan ehto ei toteudu eikä kumpaakaan linkkiä näytetä. Jos aloitamme tarinan tästä kohdasta, emme ole käyneet niissä kappaleissa, joissa arvo asetetaan. Arvo siis puuttuu tai voi olla jotain ihan muuta.</p> 
+
+<p>Jos laitamme tähän kappaleeseen vielä kokeilun vuoksi takaisin komennon  "(print: $pyyhe)", nähdään että se tulostaa arvon 0 (nolla).</p>
+
+
+
+
+
+
+
+
+
+</div></div></body></html>
