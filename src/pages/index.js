@@ -7,6 +7,8 @@ const IndexPage = () => (
 
     <p>Twine on epälineaaristen vuorovaikutteisten tarinoiden kirjoittamiseen tarkoitettu työkalu.</p>
 	
+	<p>Miksi tarinoita? Mitä on tarinankerronta? Lue <a href="/johdanto/">johdanto tarinankerrontaan</a></p>
+	
 	<p>Jos et ole koskaan käyttänyt Twineä, lue ensimmäisenä 
 	<ul>
 	<li><Link to="/tut0/">Twinen peruskäyttö, osa 1</Link></li>
