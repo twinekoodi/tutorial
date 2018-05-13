@@ -19,7 +19,7 @@ const IndexPage = () => (
 	<li>Mielikuvamainonta kertoo tarinoita onnellisista ja menestyvistä ihmisistä. Tuotteen brändi muodostuu mielikuvista, joilla tuote on yhdistetty näihin tarinoihin. Houkuttelevat tarinat voivat muokata sitä mitä ajattelemme itsestämme ja siitä miten meidän tulisi toimia. 
 	<li>Myytit ovat tarinoita siitä kuinka varhaiset ihmiset ymmärsivät maailmankaikkeuden toimivan. Jotkut ajattelivat, että maailma on syntynyt munasta tai että sadosta pitää uhrata osa maailman kulkua ohjaaville jumalille. Nykyään tiede on antanut meille tarkan kuvan vaikkapa siitä miten aurinkokunta on syntynyt tai kuinka elämä on kehittynyt Maassa. Vaikka myytit ja tieteellinen maailmankuva ovat hyvin erilaisia, ymmärrämme molemmat tarinoina jotka selittävät meille maailman toimintaa.
 	</ul>
-	
+	</p>
 	
 	
 	https://fi.scoutwiki.org/Tarina
