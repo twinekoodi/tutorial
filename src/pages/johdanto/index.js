@@ -15,9 +15,9 @@ const IndexPage = () => (
 	
 	<p>Joitakin esimerkkejä tarinoista, joita emme arkiajattelussa ehkä edes miellä tarinoiksi:
 	<ul>
-	<li>Monissa kouluissa vaaditaan motivaatiokirje kouluun hakiessa. Meillä kaikilla on käsitys siitä ketä olemme, mistä tulemme ja mitä haluamme elämässä tehdä. Koulumenestykseen ja motivaatioon vaikuttaa vahvasti se kuinka hyvin koulu sopii siihen tarinaan, jonka kautta ymmärrämme itseämme.
-	<li>Mielikuvamainonta kertoo tarinoita onnellisista ja menestyvistä ihmisistä. Tuotteen brändi muodostuu mielikuvista, joilla tuote on yhdistetty näihin tarinoihin. Houkuttelevat tarinat voivat muokata sitä mitä ajattelemme itsestämme ja siitä miten meidän tulisi toimia. 
-	<li>Myytit ovat tarinoita siitä kuinka varhaiset ihmiset ymmärsivät maailmankaikkeuden toimivan. Jotkut ajattelivat, että maailma on syntynyt munasta tai että sadosta pitää uhrata osa maailman kulkua ohjaaville jumalille. Nykyään tiede on antanut meille tarkan kuvan vaikkapa siitä miten aurinkokunta on syntynyt tai kuinka elämä on kehittynyt Maassa. Vaikka myytit ja tieteellinen maailmankuva ovat hyvin erilaisia, ymmärrämme molemmat tarinoina jotka selittävät meille maailman toimintaa.
+	<li>Monissa kouluissa vaaditaan motivaatiokirje kouluun hakiessa. Meillä kaikilla on käsitys siitä ketä olemme, mistä tulemme ja mitä haluamme elämässä tehdä. Koulumenestykseen ja motivaatioon vaikuttaa vahvasti se kuinka hyvin koulu sopii siihen tarinaan, jonka kautta ymmärrämme itseämme.</li>
+	<li>Mielikuvamainonta kertoo tarinoita onnellisista ja menestyvistä ihmisistä. Tuotteen brändi muodostuu mielikuvista, joilla tuote on yhdistetty näihin tarinoihin. Houkuttelevat tarinat voivat muokata sitä mitä ajattelemme itsestämme ja siitä miten meidän tulisi toimia. </li>
+	<li>Myytit ovat tarinoita siitä kuinka varhaiset ihmiset ymmärsivät maailmankaikkeuden toimivan. Jotkut ajattelivat, että maailma on syntynyt munasta tai että sadosta pitää uhrata osa maailman kulkua ohjaaville jumalille. Nykyään tiede on antanut meille tarkan kuvan vaikkapa siitä miten aurinkokunta on syntynyt tai kuinka elämä on kehittynyt Maassa. Vaikka myytit ja tieteellinen maailmankuva ovat hyvin erilaisia, ymmärrämme molemmat tarinoina jotka selittävät meille maailman toimintaa.</li>
 	</ul>
 	</p>
 	
