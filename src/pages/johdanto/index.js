@@ -19,10 +19,10 @@ const IndexPage = () => (
 	</ul>
 	</p>
 	
-	<p>Tarinankerronta ja tarinoiden ymmärtäminen on ihmiselle hyvin luontaista toimintaa. Ihmisellä on oma muistityyppi, episodinen muisti, joka on erikoistunut muistamaan todellisia tai kuviteltuja koettuja tapahtumaketjuja. Tarinat ovat siis oleellinen osa sitä miten ihmiset ajattelevat ja ymmärtävät maailmaa.</p>
+	<p>Tarinankerronta ja tarinoiden ymmärtäminen on ihmiselle hyvin luontaista toimintaa. Ihmisellä on oma muistityyppi, episodinen muisti, joka on erikoistunut muistamaan todellisia tai kuviteltuja koettuja tapahtumaketjuja. Tarinat ovat siis oleellinen osa sitä miten ihmiset ajattelevat ja ymmärtävät maailmaa.
 	</p>
 	
-	<p>Lue lisää: <br />
+	<p>Lue lisää: <br>
 	<a href="https://fi.scoutwiki.org/Tarina">Tarinoiden käyttö partiossa</a></p>
 	
 	<h3>Millaisia tarinoita on olemassa?</h3>
